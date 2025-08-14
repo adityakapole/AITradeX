@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 import warnings
 from utils.llm_handler import sentiment_analyzer
 from config.settings import *
-
+# this is a predictive analysis module that uses time series forecasting models to predict stock prices.
 warnings.filterwarnings('ignore')
 
 class PredictiveAnalyzer:
