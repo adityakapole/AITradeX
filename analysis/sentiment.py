@@ -5,7 +5,7 @@ from utils.llm_handler import sentiment_analyzer
 import time
 import random
 from config.settings import GOOGLE_API_KEY
-
+# this is py file
 def load_documents_from_urls(urls):
     """
     Given a list of URLs, load documents from each using WebBaseLoader.
